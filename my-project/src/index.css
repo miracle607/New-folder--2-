@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  @apply p-0 m-0 
+}
+
+.btn{
+  @apply py-3 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider;
+} 
+
+.info{
+  @apply bg-white h-full w-full p-10
+}
+
+/* in your CSS or PostCSS file */
+.custom-gradient {
+  background: linear-gradient(180deg, #F5F4F3 0%, #F5F4F3 77.96%, #FFF 77.97%, #FFF 105.43%);
+}
+
